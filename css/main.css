@@ -86,3 +86,11 @@ hr.style13 {
     justify-content:start;
     color: rgb(206, 2, 2);
 }
+
+.navbar-toggler{
+    font-size: 30px;
+}
+
+.lnav{
+    font-size: 1.5em;
+}

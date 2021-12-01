@@ -82,4 +82,7 @@ hr.style13 {
     
 }
 
-
+.rojo{
+    justify-content:start;
+    color: rgb(206, 2, 2);
+}

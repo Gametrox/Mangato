@@ -62,8 +62,8 @@
 }
 
 .card-border{
-    border: solid 10px white;
-    border-radius: 20px;
+    border: solid 0px transparent;
+    border-radius: 5px;
     overflow: hidden;
     transition: all ease-out 0.2s;
 }
@@ -74,7 +74,7 @@
 }
 
 hr.style13 {
-      align-items: center;
+    align-items: center;
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
@@ -97,4 +97,13 @@ hr.style13 {
 
 .lnav{
     font-size: 1.5em;
+}
+
+.c-text{
+    background-color: rgba(0, 0, 0, 0.897);
+    border-width: 100%;
+    border: solid;
+    border-radius: 6px;
+    border-color: transparent;
+    color: white;
 }

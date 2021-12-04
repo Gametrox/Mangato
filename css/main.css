@@ -9,7 +9,7 @@
 }
 @media only screen and (max-device-width: 1366px) {
     .banner {
-        min-height: 300px;
+        min-height: 500px;
         background-attachment: scroll;
     }
   }
@@ -70,8 +70,11 @@
 
 .card-border:hover{
     transform: scale(1.05);
+  
 }
+
 hr.style13 {
+      align-items: center;
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
@@ -79,6 +82,7 @@ hr.style13 {
 
 .tarjeta{
     border-color: transparent;
+    
     
 }
 

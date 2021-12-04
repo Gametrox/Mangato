@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <title>Mangato</title>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="img/logo.png">
 
-    
+
 </head>
 <body>
     <!--NAVBAR-->
@@ -18,8 +18,8 @@
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="" width="100">
             </a>
-            <div>
-             <h1 class="text-white">MangaTO</h1>
+            <div class="navbar navbar-expand-lg">
+              <h1 class="text-white">Manga</h1><h1 class="rojo">TO</h1>
             </div>
             <button class="navbar-toggler" 
                 type="button" 
@@ -32,9 +32,9 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="biblioteca.html">Biblioteca</a></li>
-                    <li class="nav-item"><a class="nav-link" href="wip.html">Regístrate</a></li>
+                    <li class="nav-item lnav"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item lnav"><a class="nav-link" href="biblioteca.html">Biblioteca</a></li>
+                    <li class="nav-item lnav"><a class="nav-link" href="wip.html">Regístrate</a></li>
                 </ul>
             </div>
         </div>
@@ -45,23 +45,22 @@
     
     <!--NOVEDAD-->
     <div class="container">
-        <div class="row bg-danger"></div>
-    </div>
-    <div id="ribbon" class="container-fluid">
-        <div id="new" class="container w-50 pl-5 rounded-lg">
-            <div class="row align-items-center">
+      <div class="row bg-danger"></div>
+  </div>
+  <div id="ribbon" class="container-fluid">
+      <div id="new" class="container w-50 pl-5 rounded-lg">
+          <div class="row align-items-center">
 
-                <div class="col-sm p-3">
-                    <img src="img/new.jpeg" class="w-100 mx-auto d-block" alt="" width="444px">
-                </div>
-
-                <div class="col-sm p-3 text-dark text-center">
-                    <p class="text-shadow">NOVEDAD</p>
-                    <h4 class="text-shadow">SOLO LEVELING</h4>
-                </div>
-            </div>
-        </div>
-    </div>
+              <div class="col-sm p-3">
+                  <img src="img/new.jpeg" class="w-100 mx-auto d-block" alt="" width="444px">
+              </div>
+              <div class="col-sm p-3 text-dark text-center">
+                  <p class="text-shadow">NOVEDAD</p>
+                  <h4 class="text-shadow">SOLO LEVELING</h4>
+              </div>
+          </div>
+      </div>
+  </div>
     <!--SEPARADOR RIBBON-->
     <div id="separator-ribbon">
         <div class="content bg-danger"></div>
@@ -99,9 +98,11 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="card w-100 card-border mb-5">
-                      <img src="img/biblioteca/car4.png" class="card-img-top" alt="...">
+                      <a href="https://lectortmo.com/library/manga/8800/horimiya?orderDir=ASC" target="_blank"><img src="img/biblioteca/car4.png" class="card-img-top" alt="..."></a>
                       <div class="card-body">
-                        <p class="card-text">Kimetsu no yaiba, volumen que recopila los capitulos de la película</p>
+                        <p class="card-text">Horimiya, dos compañeros de clase que nunca se habian hablado
+                          conocen la personalidad oculta del otro
+                        </p>
                       </div>
                     </div>
               </div>
@@ -138,7 +139,8 @@
     <!-- Copyright  -->
   <section class="copyright py-4 text-center text-white bg-dark">
     <div class="container">
-      <small>2021 Mangato</small>
+
+      <large>2021 Mangato</large>
     </div>
   </section>
      

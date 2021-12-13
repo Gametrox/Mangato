@@ -69,7 +69,7 @@
 }
 
 .card-border:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
   
 }
 
@@ -100,10 +100,12 @@ hr.style13 {
 }
 
 .c-text{
+    width: 100%;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.897);
-    border-width: 100%;
-    border: solid;
-    border-radius: 6px;
-    border-color: transparent;
+    padding-bottom: 3%;
+    padding-top: 2%;
     color: white;
+    border-end-end-radius:8px;
+    border-end-start-radius: 8px;
 }

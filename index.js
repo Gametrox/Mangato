@@ -1,0 +1,1 @@
+alert("Bienvenido a MangaTO network, una red que conecta al usuario con los mangas");
